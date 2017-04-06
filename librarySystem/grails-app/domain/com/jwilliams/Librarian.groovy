@@ -15,7 +15,7 @@ class Librarian {
 		office blank:false, nullalbe:false
 		userName blank:false, nullable:false, unique:true
 		password blank:false, nullable:false
-		telephone blank:false, nullable:false, minSize:10 maxSize:15
+		telephone blank:false, nullable:false, minSize:10, maxSize:15
 		library blank:false, nullable:false
     }
 }
