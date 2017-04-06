@@ -8,7 +8,7 @@ class Book {
 		Date dateBorrowed
 		Date returnDate
 		String student
-		String overdue?
+		String overdue
 
     static constraints = {
 		title blank:false, nullable:false
@@ -18,6 +18,6 @@ class Book {
 		dateBorrowed blank:false, nullable:false
 		returnDate blank:false, nullable:false
 		student blank:false, nullable:false
-		overdue? blank:false, nullable:false
+		overdue blank:false, nullable:false
     }
 }
